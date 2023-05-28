@@ -4,7 +4,7 @@ Diet Mentor is an electron web application that offers personalized food suggest
 It aims to help individuals make informed dietary choices and achieve their health goals.
 
 ## Link to product walkthrough
-https://drive.google.com/file/d/1sNWYeIy54DBwLF5l4lnz9Oq9Tas2vMto/view?usp=drivesdk
+https://drive.google.com/file/d/185Ki4mHe1KY2PYNtONg59BME62u0-vxV/view?usp=drivesdk
 ## How it Works ?
 
 In the Diet Mentor web app, the working involves integrating the ChatGPT API to provide personalized food suggestions based on the user's health parameters and preferences.
