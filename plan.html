@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&family=Cantarell&family=Cantata+One&family=Dancing+Script:wght@600&family=Lato:ital@1&family=Merriweather&family=Montserrat&family=Playfair:wght@900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Merriweather&family=Montserrat&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fosnts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+    <link rel="stylesheet" href="planstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <section id="starting">
+        <img class="backgroundimg" src="badam.jpg" alt="Aleq">
+        <h1 class="form-heading">Fill the details below for custom-tailored food recommendations</h1>
+        <!-- <p class="first">Find Your Perfect Match!</p> -->
+        <!-- <p class="second">Discover your ideal diet food with our mouthwatering options. Fill out the form below and unlock personalized recommendations just for you!</p> -->
+        <div class="form-container">
+            <form id="chatForm">
+                <fieldset>
+                    <legend>Enter the details:</legend>
+                    <!-- age -->
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required><br><br> 
+                
+                    <!-- gender -->
+                    <label for="Gender">Gender:</label>
+                    <select type="gender" id="gender" name="gender" required>
+                        <option value="">Select gender</option>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="others">Others</option>
+                    </select><br><br>
+        
+                    <!-- weight -->
+                    <label for="weight">Weight:</label>
+                    <input type="number" id="weight" name="weight" required><br><br>
+        
+                    <!-- height -->
+                    <label for="height">Height:</label>
+                    <input type="height" id="height" name="height" required><br><br>
+        
+                    <!-- Dietary Preferences -->
+                    <label for="diet">Dietary Preferences</label>
+                    <select type="diet" id="diet" name="diet" required>
+                        <option value="">Select Dietary Preferences</option>
+                        <option value="Vegetarian">Vegetarian</option>
+                        <option value="Non Vegetarian">Non Vegetarian</option>
+                        <option value="No Preference">No Preference</option>
+                    </select><br><br>
+        
+                    <!-- cuisine -->
+                    <label for="cuisine">Cuisine:</label>
+                    <select type="cuisine" id="cuisine" name="cuisine" required>
+                        <option value="">Select cuisine</option>
+                        <option value="Indian">Indian</option>
+                        <option value="Chinese">Chinese</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Arabic">Arabic</option>
+                            
+                    </select><br><br>
+        
+                    <!-- sugar level -->
+                    <label for="sugar">Sugar Level:</label>
+                    <select type="sugar" id="sugar" name="sugar" required>
+                        <option value="">Select Sugar level</option>
+                        <option value="Below 70 mg/dL">Below70 mg/dL</option>
+                        <option value="70-99 mg/dL">70-99 mg/dL</option>
+                        <option value="100-125 mg/dL">100-125 mg/dL</option>
+                        <option value="Above 126 mg/dL">Above 126 mg/dL</option>
+                    </select><br><br>
+        
+                    <!-- cholestrol level -->
+                    <label for="cholesterol">Cholesterol Level:</label>
+                    <select type="cholesterol" id="cholesterol" name="cholesterol" required>
+                        <option value="">Select Cholesterol level</option>
+                        <option value="Low">Low</option>
+                        <option value="Normal">Normal</option>
+                        <option value="High">High</option>
+                    
+                    </select><br><br>
+        
+                    <!-- pressure level -->
+                    <label for="pressure">Pressure Level:</label>
+                    <select type="pressure" id="pressure" name="pressure" required>
+                        <option value="">Select Pressure level</option>
+                        <option value="Low">Low</option>
+                        <option value="Normal">Normal</option>
+                        <option value="High">High</option>
+                    
+                    </select><br><br>
+                    <input class="submit-button" type="submit" value="Submit">
+                    <!-- <div class="form-button">
+                        <button type="button" class="btn1 btn-primary btn-lg">CHECK</button>
+    
+                    </div> -->             
+                </fieldset>
+    
+            </form>
+        </div>
+        <!-- <textarea id="chat-response" rows="20" cols="60"></textarea> -->
+        <!-- <div id="chat-response"></div> -->
+
+
+
+    </section>
+
+    <section id="second">
+        <br>
+        <br>
+        
+    </section>
+    <section id="third">
+        <!-- <img class="backgroundimgthird" src="badam.jpg" alt="Aleq"> -->
+        <h3><strong>Find Your Perfect Match!</strong></h3>
+        <div id="chat-response-container" style="display: none;">
+            <textarea id="chat-response" rows="10" cols="50" readonly></textarea>
+        </div>
+
+    </section>
+
+
+    <script>
+
+$(document).ready(function() {
+
+            // Handle form submission
+            const baseUrl = "https://api.openai.com/v1";
+            const apiKey = "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";
+            $('#chatForm').submit(function(event) {
+                event.preventDefault(); // Prevent the form from submitting normally
+
+                // Get form inputs
+                var age = $('#age').val();
+                console.log(age);
+                var gender = $('#gender').val();
+                console.log(gender);
+                var weight = $('#weight').val();
+                console.log(weight);
+                var height = $('#height').val();
+                console.log(height);
+                var diet = $('#diet').val();
+                console.log(diet);
+                var cuisine = $('#cuisine').val();
+                console.log(cuisine);
+                var sugar = $('#sugar').val();
+                console.log(sugar);
+                var cholesterol = $('#cholesterol').val();
+                console.log(cholesterol);
+                var pressure = $('#pressure').val();
+                console.log(pressure);
+
+                // Prepare the prompt
+                //var prompt = " code to print hello world in python";
+                var prompt = "List 5 food dishes for a person considering the following health and food factors, age: " + age + "\n";
+                prompt += "gender: " + gender + "\n";
+                prompt += "weight: " + weight + "\n";
+                prompt += "height: " + height + "\n";
+                prompt += "diet: " + diet + "\n";
+                prompt += "cuisine: " + cuisine + "\n";
+                prompt += "sugar: " + sugar + "\n";
+                prompt += "cholesterol: " + cholesterol + "\n";
+                prompt += "pressure: " + pressure;
+
+                console.log(prompt);
+                // Step 1: Creating the Payload
+                const payload = {
+                    prompt: prompt,
+                    max_tokens: 2048,
+                    temperature: 1
+                };
+                // Step 2: Converting Payload to JSON
+                try {
+                    const jsonPayload = JSON.stringify(payload);
+                    // Step 3: Making the API Request
+                   
+                    fetch('https://api.openai.com/v1/engines/text-davinci-002/completions', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer ' + apiKey
+                        },
+                        body: jsonPayload
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        // Step 4: Handling the Response Data
+                        console.log("Response Data:", data);
+                        // Process the response data as needed
+
+                        const chatGptResponse = data.choices[0].text;
+
+                        
+
+                         // Split the response into separate dishes and filter out empty lines
+                        const dishes = chatGptResponse.split(",").map(dish => dish.trim());
+
+
+
+                        //const dishes = chatGptResponse.split(",").map(dish => dish.trim());
+
+                         // Create the numbered list format response
+                        let numberedListResponse = '';
+                        let counter = 1; // Initialize the counter
+
+                        dishes.forEach((dish, index) => {
+                            numberedListResponse += `${counter}. ${dish}\n`; // Add dish with counter
+                            counter++; // Increment the counter // Add dish with index number
+                        });
+
+                        // Remove any initial garbage value
+                        const cleanedResponse = numberedListResponse.replace(/^\d+\.\s*/, '');
+
+                        // Remove the numbering at the beginning
+                        const responseWithoutNumbering = numberedListResponse.replace(/^\d+\.\s+/gm, '');
+
+                        // Display the response in the textarea
+                        const chatResponseTextarea = document.getElementById('chat-response');
+                        chatResponseTextarea.value = numberedListResponse;
+                        
+                        // Show the chat response container
+                        const chatResponseContainer = document.getElementById('chat-response-container');
+                        chatResponseContainer.style.display = 'block';
+
+
+
+
+
+                    
+                    })
+                    .catch(error => {
+                        // Handle any errors that occurred during the request
+                        console.error('API Request Error:', error);
+                    });
+                }
+                catch (error) {
+                    // Handle any errors that occurred during JSON.stringify()
+                    console.error('Error converting payload to JSON:', error);
+                }
+
+                
+            });
+        });
+
+        
+
+
+
+    </script>
+</body>   
+</html>
